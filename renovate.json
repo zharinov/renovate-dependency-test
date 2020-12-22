@@ -1,11 +1,4 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "enabledManagers": ["gradle-lite"],
-  "packageRules": [
-    {
-      "managers": ["gradle-lite"]
-    }
-  ]
+  "extends": ["config:base"],
+  "enabledManagers": ["gradle-lite"]
 }

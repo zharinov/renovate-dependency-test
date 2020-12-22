@@ -2,20 +2,10 @@
   "extends": [
     "config:base"
   ],
-  "gradle-lite": {
-    "enabled": true
-  },
-  "gradle": {
-    "enabled": false
-  },
+  "enabledManagers": ["gradle-lite"],
   "packageRules": [
     {
-      "managers": ["gradle-lite"],
-      "registryUrls": [
-              "https://papermc.io/repo/repository/maven-public/",
-              "https://repo.codemc.org/repository/maven-public",
-              "https://plugins.gradle.org/m2"
-            ]
+      "managers": ["gradle-lite"]
     }
-]
+  ]
 }

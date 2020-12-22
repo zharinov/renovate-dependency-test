@@ -4,5 +4,15 @@
   ],
   "gradle-lite": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "packageNames": ["org.bstats:bstats-bukkit"],
+      "registryUrls": [
+              "https://papermc.io/repo/repository/maven-public/",
+              "https://repo.codemc.org/repository/maven-public",
+              "https://plugins.gradle.org/m2"
+            ]
+    }
+]
 }

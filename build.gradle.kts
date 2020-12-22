@@ -33,7 +33,7 @@ repositories {
 
 dependencies {
     compileOnly("com.destroystokyo.paper:paper-api:1.16.4-R0.1-SNAPSHOT")
-    implementation("org.bstats:bstats-bukkit:1.8")
+    implementation("org.bstats:bstats-bukkit:1.7")
     implementation(kotlin("stdlib-jdk8"))
 }
 
